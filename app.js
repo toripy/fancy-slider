@@ -87,7 +87,7 @@ const createSlider = () => {
     if (duration < 1000 && duration) {
         duration = 1000;
         document.getElementById("cool").innerHTML = `
-        <h4 class = "text-warning m-4 d-flex justify-content-center">Cool Down Men.You can't slide it before 1 second.</h4>
+        <h4 class = "text-warning m-4 d-flex justify-content-center">Cool Down Men.You can't see it before 1 second.</h4>
          `;
     } else {
         document.getElementById("cool").innerHTML = ""
